@@ -1,0 +1,264 @@
+*{
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+html,body {
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    margin: 5px;
+    padding: 10px;
+}
+header {
+    width: 100%;
+    height: 70px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(18, 36, 65);
+    box-shadow: 0px 15px 15px rgb(0, 0, 2);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.IQLabel {
+    font-size: xx-large;
+    color: white;
+    text-shadow: 0px 2px 10px black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.ContanrBody {
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    /* height: 100%; */
+    display: flex;
+    flex-wrap:wrap;
+justify-content: space-around;
+}
+.ContanrBodyAll{
+    background-color: white;
+width: 100%;
+height: 200%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.IQ {
+    margin: 30px 20px;
+    border: solid 1px black;
+    width: 250px;
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+}
+.Pic{
+    width: 100%;
+    height: 50%;
+    background-size: 100%;
+    background-position: center ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+ 
+.AllQA{
+    margin: 9px;
+    height: 40%;
+    width: 42%;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.AllQA.Q14Ansewer{
+    margin: 9px;
+    height: 25%;
+    width: 26%;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+
+.Pragraph{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(18, 36, 65);
+    box-shadow:0px 5px 15px black;
+    color:white;
+    text-shadow: 0px 2px 2px black;
+    text-align: center;
+    z-index: 0;
+}
+.btn{
+  /* display: inline; */
+    z-index: 2;
+    width: 200px;
+    margin-bottom: 50px;
+    box-shadow: 3px 4px 0px 0px #164169;
+    background:linear-gradient(to bottom, #175491 5%, #1164b6 100%);
+    background-color:#0281ff;
+    border-radius:5px;
+    border:1px solid #337bc4;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:17px;
+    font-weight:bold;
+    padding:12px 44px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #528ecc;
+    
+}
+.ContanrButton{
+    width: 100%;
+    text-align: center;
+}
+    
+
+    .btn:hover {
+        background:linear-gradient(to bottom, #286cb1 5%, #368ee6 100%);
+        background-color:#378de5;
+    }
+    .btn:active {
+        position:relative;
+        top:1px;
+    }
+    
+    /* The PopUp Mesaage */
+
+    /* Popup container - can be anything you want */
+.btn {
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .btn .popuptext {
+    visibility: hidden;
+    width: 290px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 15%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .btn .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .btn .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+
+    /* The PopUp Mesaage */
+      
+
+    div.card {
+        visibility: hidden;
+        
+
+      }
+      div.card.show {
+        visibility: visible;
+        width: 300px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        margin-bottom: 50px;
+        text-shadow: 0px 1px 1px rgb(0, 0, 0);
+        font-size: 15px;
+      }
+      
+      div.header {
+        background-color: rgb(76, 94, 175);
+        color: white;
+        padding: 10px;
+        font-size: 20px;
+        text-shadow: 0px 4px 5px black;
+      }
+      
+      div.container {
+        padding: 10px;
+
+      }
+
+      @media (max-width: 600px) {
+        .Pragraph{
+            margin: 0;
+            padding: 8px;
+            background-color: rgb(18, 36, 65);
+            box-shadow:0px 5px 15px black;
+            color:white;
+            text-shadow: 0px 2px 2px black;
+            text-align: center;
+            font-size: 8px;
+        }
+.IQ {
+    margin: 10px 5px;
+    border: solid 1px black;
+    width:100px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+}
+.AllQA{
+    margin: 5px;
+    height: 40%;
+    width: 40%;
+    cursor: pointer;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+.AllQA.Q14Ansewer{
+    margin: 4px;
+    height: 25%;
+    width: 25%;
+    cursor: pointer;
+    border-radius: 50%;
+    /* background-color: red; */
+}
+      }
+

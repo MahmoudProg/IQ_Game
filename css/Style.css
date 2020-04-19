@@ -234,18 +234,18 @@ height: 200%;
             color:white;
             text-shadow: 0px 2px 2px black;
             text-align: center;
-            font-size: 8px;
+            font-size: 12px;
         }
 .IQ {
     margin: 10px 5px;
     border: solid 1px black;
-    width:100px;
-    height: 230px;
+    width:170px;
+    height: 370px;
     display: flex;
     flex-direction: column;
 }
 .AllQA{
-    margin: 5px;
+    margin: 8px;
     height: 40%;
     width: 40%;
     cursor: pointer;
@@ -253,9 +253,9 @@ height: 200%;
     /* background-color: red; */
 }
 .AllQA.Q14Ansewer{
-    margin: 4px;
-    height: 25%;
-    width: 25%;
+    margin: 6px;
+    height: 26%;
+    width: 26%;
     cursor: pointer;
     border-radius: 50%;
     /* background-color: red; */
